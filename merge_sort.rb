@@ -5,8 +5,6 @@
 # 4. Compare which of the 1-element should be first
 # 5. Compare 
 
-require 'pry-byebug'
-
 def merge_sort(array)
   # arrays of length one are already sorted
   return array if array.length == 1
